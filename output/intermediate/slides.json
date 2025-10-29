@@ -1,0 +1,82 @@
+{
+  "title_slide": {
+    "title": "Machine Learning Lessons: Reflections on a Month of Practice",
+    "subtitle": "Practical Insights on Readmes, MIGs, and Daily Movement in Machine Learning"
+  },
+  "content_slides": [
+    {
+      "title": "Leveraging README Documents for Enhanced Personal Machine Learning Project Management",
+      "bullets": [
+        "Create README documents for your future self to document project details.",
+        "Include quickstart instructions, data locations, reproduction steps, and common pitfalls.",
+        "A well-maintained README saves time reconstructing past work, especially after project pauses."
+      ],
+      "speaker_notes": "README documents are not just for collaborators, but also for yourself. Documenting key project details will save you time and effort when revisiting the project later."
+    },
+    {
+      "title": "Optimizing Machine Learning Resource Allocation with Multi-Instance GPU Slices",
+      "bullets": [
+        "Request Multi-Instance GPU (MIG) slices instead of full GPUs for smaller models.",
+        "MIG allows partitioning a single GPU into smaller, isolated virtual GPUs.",
+        "Using MIG slices can lead to faster job scheduling and improved iteration speed."
+      ],
+      "speaker_notes": "For smaller machine learning tasks, requesting a full GPU is often wasteful. Multi-Instance GPUs allow you to use only the necessary resources, leading to faster scheduling and improved efficiency."
+    },
+    {
+      "title": "Incorporating Movement Snacks to Combat Prolonged Sitting in Machine Learning",
+      "bullets": [
+        "Alternate positions and incorporate short movement breaks to combat poor posture.",
+        "Include exercises like band pull-aparts, wall stretches, and hip flexor stretches.",
+        "Consider standing during audio meetings or reading blocks to promote better posture."
+      ],
+      "speaker_notes": "Prolonged sitting is common in machine learning, but it doesn't have to lead to bad posture. Incorporating short movement breaks and alternating positions can significantly improve your well-being."
+    },
+    {
+      "title": "Documenting Environment Setup for Reproducible Machine Learning Experiments",
+      "bullets": [
+        "Specify the exact Python version and environment file or conda/pip commands used.",
+        "This ensures that the environment can be easily recreated for reproducibility.",
+        "Include specific versions of key libraries to avoid compatibility issues."
+      ],
+      "speaker_notes": "Reproducibility is crucial in machine learning. Clearly documenting the environment setup ensures that your experiments can be replicated by yourself and others."
+    },
+    {
+      "title": "Tracking Data Provenance and Processing Steps in Machine Learning Projects",
+      "bullets": [
+        "Record the locations of raw and processed data, including download and caching details.",
+        "Note any data-specific quirks or transformations applied during preprocessing.",
+        "Use checksums to verify data integrity and prevent data corruption."
+      ],
+      "speaker_notes": "Knowing where your data comes from and how it was processed is essential for understanding and debugging your machine learning models. Documenting these details ensures data provenance."
+    },
+    {
+      "title": "Creating Reproducible Results by Documenting Training and Evaluation Commands",
+      "bullets": [
+        "Provide the exact commands used to run the main experiments, including all flags.",
+        "Document how to resume training from checkpoints and how to set random seeds.",
+        "This ensures that the same results can be obtained consistently."
+      ],
+      "speaker_notes": "To ensure reproducibility, it's important to document the exact commands used to train and evaluate your models. This includes specifying all relevant parameters and settings."
+    },
+    {
+      "title": "Logging Hyperparameter Search Configurations and Results for Machine Learning",
+      "bullets": [
+        "Record the command used for hyperparameter search, including the search ranges.",
+        "Specify where the results of the hyperparameter search are logged.",
+        "This allows you to easily review and compare different hyperparameter configurations."
+      ],
+      "speaker_notes": "Hyperparameter tuning is a critical part of machine learning. Logging the configurations and results of your hyperparameter searches allows you to effectively analyze and optimize your models."
+    },
+    {
+      "title": "Maintaining a Changelog to Track Meaningful Changes in Machine Learning Projects",
+      "bullets": [
+        "Include one-line bullets of meaningful changes made to the project.",
+        "This helps track the evolution of the project and identify the source of issues.",
+        "The changelog should include bug fixes, feature additions, and performance improvements."
+      ],
+      "speaker_notes": "A changelog provides a concise history of the project's development. This is useful for understanding how the project has evolved and for identifying the source of any issues that may arise."
+    }
+  ],
+  "total_slides": 9,
+  "narration_script": "README documents are not just for collaborators, but also for yourself. Documenting key project details will save you time and effort when revisiting the project later. For smaller machine learning tasks, requesting a full GPU is often wasteful. Multi-Instance GPUs allow you to use only the necessary resources, leading to faster scheduling and improved efficiency. Prolonged sitting is common in machine learning, but it doesn't have to lead to bad posture. Incorporating short movement breaks and alternating positions can significantly improve your well-being. Reproducibility is crucial in machine learning. Clearly documenting the environment setup ensures that your experiments can be replicated by yourself and others. Knowing where your data comes from and how it was processed is essential for understanding and debugging your machine learning models. Documenting these details ensures data provenance. To ensure reproducibility, it's important to document the exact commands used to train and evaluate your models. This includes specifying all relevant parameters and settings. Hyperparameter tuning is a critical part of machine learning. Logging the configurations and results of your hyperparameter searches allows you to effectively analyze and optimize your models. A changelog provides a concise history of the project's development. This is useful for understanding how the project has evolved and for identifying the source of any issues that may arise."
+}

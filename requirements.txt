@@ -1,0 +1,56 @@
+# Infooware Edu Prototype - Dependencies
+# PDF to Slides & Video Pipeline
+# Python 3.10+ required
+
+# ============================================
+# Core PDF Processing
+# ============================================
+pymupdf>=1.23.0              # PDF parsing and rendering (fitz)
+pytesseract>=0.3.10          # OCR wrapper for Tesseract
+Pillow>=10.0.0               # Image processing
+tqdm>=4.66.0                 # Progress bars
+
+# ============================================
+# AI & NLP
+# ============================================
+google-genai>=0.2.0          # Google Gemini AI API for summarization
+
+# ============================================
+# Icon & Image Generation
+# ============================================
+requests>=2.31.0             # HTTP requests
+requests-oauthlib>=1.3.0     # OAuth for The Noun Project API
+
+# ============================================
+# Presentation Generation
+# ============================================
+python-pptx>=0.6.21          # PowerPoint (PPTX) creation
+reportlab>=4.0.0             # PDF slide generation
+
+# ============================================
+# Video Generation
+# ============================================
+moviepy>=1.0.3               # Video creation and editing
+gTTS>=2.3.0                  # Google Text-to-Speech (free, no auth required)
+pdf2image>=1.16.0            # Convert PDF to images (requires poppler)
+
+# ============================================
+# System Requirements (install separately)
+# ============================================
+# These must be installed at system level:
+#
+# Ubuntu/Debian:
+#   sudo apt install tesseract-ocr poppler-utils ffmpeg
+#
+# macOS:
+#   brew install tesseract poppler ffmpeg
+#
+# Windows:
+#   - Tesseract: https://github.com/UB-Mannheim/tesseract/wiki
+#   - Poppler: https://github.com/oschwartz10612/poppler-windows/releases/
+#   - FFmpeg: https://ffmpeg.org/download.html
+
+# ============================================
+# Installation
+# ============================================
+# pip install -r requirements.txt
